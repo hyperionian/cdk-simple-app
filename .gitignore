@@ -1,1 +1,12 @@
+*.js
+!jest.config.js
+*.d.ts
 node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+#VSCode related files
+.vscode/
+.DS_STORE
