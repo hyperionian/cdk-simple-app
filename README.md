@@ -1,14 +1,11 @@
-# Welcome to your CDK TypeScript project!
+# Simple App deployed using AWS CDK
 
-This is a blank project for TypeScript development with CDK.
+The App consists of simple static web page hosted in Amazon S3 served by AWS CloudFront. It also makes use of serverless function running AWS Lambda to upload files, and render the files through client side app served from the static web page
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Resouces deployed
+Amazon CloudFront
+Amazon S3
+AWS Lambda functions
 
-## Useful commands
+## High Level Diagram
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
